@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:object-fit="http://www.w3.org/1999/xhtml" xmlns:overflow="http://www.w3.org/1999/xhtml"
-      xmlns:border-radius="http://www.w3.org/1999/xhtml">
+      xmlns:border-radius="http://www.w3.org/1999/xhtml" xmlns:color="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Great Leh Baedee</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+            integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+            crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-    <script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript">
-        $(window).load(function() {
+        $(window).load(function () {
             $(".loader").fadeOut("slow");
         })
     </script>
@@ -24,41 +28,35 @@
     <link rel="stylesheet" href="Look.sass">
     <link rel="stylesheet" href="Look.css">
     <link rel="stylesheet" href="Look.css.map">
-        <style>
+    <style>
 
         .full {
             width: 100%;
             height: 100%;
         }
 
-        .fluid-img {
-            margin: 60px auto;
+        .fimg {
+            display: block;
+            margin: auto;
+        }
+        .cr{
+            background-color: red;
         }
 
-        @media( min-width: 768px ){
-            .fluid-img {
-                max-width: 768px;
-            }
+        .cbl{
+            background-color: black;
         }
-        @media screen and (min-width: 768px) {
-            .fluid-img {
-                padding-left: 0;
-                padding-right: 0;
-            }
+        .cw{
+            background-color: white;
+        }
+        .cp{
+            background-color: purple;
+        }
+        u{
+            color: purple;
         }
 
-        .img-great {
-            /*height: 200px;*/
-            /*width: 200px;*/
-            /*overflow: hidden;*/
-            /*border-radius: 50%;*/
-        }
-        .img{
 
-            border-radius: 50%;
-            width: 100px;
-            height: 100px;
-        }
 
     </style>
 
@@ -70,63 +68,44 @@
 
 <img src="Images/logo.jpg" width="350" height="350" class="loader">
 
-<div class="jumbotron full">
-
-    <div>
-
-        <div class="row fluid-img">
-            <div class="col-md-12"><img class="img-circle"  src="Images/Great.jpg" height="400" width="400"></div>
+<div class="jumbotron full cr">
+    <div class="row fluid-img">
+        <div class="col-md-12">
+            <img class="img-circle fimg" src="Images/Great.jpg" height="400" width="400">
+            <h1 align="center">Great Leh Baedee</h1>
         </div>
-
-
-        <!--<img style='object-fit: contain' src="Images/display1.jpg" width="350" height="350">-->
-
-        <p>
-
-            gsdfdklf
-            fhazjfhkjh
-            zfrhdxjh
-            zfdshxghc,j
-            trydtkufg
-            sjdgcmnbv
-
-        </p>
-        <p>
-
-            esturidofyligh
-            usryikhgnd
-            itkdhjmnfxgdhzrase
-            aeusrjyghdzf
-            aeysurjyfgxbdfg
-            strykdxfd
-
-        </p>
-
-        <p>
-
-            ehorjyheth
-
-        </p>
-
-        <p>aryertujhetjhfgjhfgj</p>
-
     </div>
+
 
 </div>
 
-<div class="jumbotron">
+<div class="jumbotron cbl">
 
-    <p>
-
-        Hello world.
-
-    </p>
-
-    <p>
-        How you doing?
-
-    </p>
+    <h1 align="center"><u> Features </u></h1>
     <img style='object-fit: contain' src="Images/logo.jpg" width="350" height="350">
+
+</div>
+<div class="jumbotron cw">
+
+    <h1 align="center"><u> About Me </u></h1>
+
+</div>
+
+<div class="jumbotron cp">
+
+    <h1 align="center"><u> Portfolio </u></h1>
+
+</div>
+
+<div class="jumbotron cr">
+
+    <h1 align="center"><u> Resume </u></h1>
+
+</div>
+<div class="jumbotron cbl">
+
+    <h1 align="center"><u> Contact </u></h1>
+
 </div>
 
 </body>
